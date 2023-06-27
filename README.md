@@ -1,5 +1,6 @@
 # Rust Programming
 
+
 ## What is programming?
 
 Computer programming is the process of writing code that instructs how a computer, application or software program performs.
@@ -35,7 +36,9 @@ Rust ownership and memory safely rules provide concurrency without data races.
 ## Supports for web Assembly (WASM)
 Web Assembly helps to execute high computation intensive algorithms in the browser, on embedded devices, or anywhere else. It runs at the speed of native code. Rust can be compiled to Web Assembly for fast, reliable execution.
 
+
 # Installation
+
 
 ## Using linux ubuntu system
 ```
