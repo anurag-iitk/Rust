@@ -34,3 +34,21 @@ Rust ownership and memory safely rules provide concurrency without data races.
 
 ## Supports for web Assembly (WASM)
 Web Assembly helps to execute high computation intensive algorithms in the browser, on embedded devices, or anywhere else. It runs at the speed of native code. Rust can be compiled to Web Assembly for fast, reliable execution.
+
+# Installation
+
+## Using linux ubuntu system
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+## Configure the PATH environment variable
+```
+~/.cargo/bin
+```
+ Based on installed dependencies folder
+
+## Check version
+```
+rustc --version
+```
