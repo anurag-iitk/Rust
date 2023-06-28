@@ -286,5 +286,5 @@ fn main(){
     println!("Amount is {}", amount);
 }
 ```
-**Immutable**- cannot change the value
-**Mutable**- change the value stored
+* **Immutable**- cannot change the value
+* **Mutable**- change the value stored
