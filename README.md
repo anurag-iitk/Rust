@@ -1,6 +1,5 @@
 # Rust Programming
 
-
 ## What is programming?
 
 Computer programming is the process of writing code that instructs how a computer, application or software program performs.
@@ -36,9 +35,7 @@ Rust ownership and memory safely rules provide concurrency without data races.
 ## Supports for web Assembly (WASM)
 Web Assembly helps to execute high computation intensive algorithms in the browser, on embedded devices, or anywhere else. It runs at the speed of native code. Rust can be compiled to Web Assembly for fast, reliable execution.
 
-
 # Installation
-
 
 ## Using linux ubuntu system
 ```
@@ -55,3 +52,32 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 rustc --version
 ```
+
+# COMMENTS AND PRINT STATEMENT
+
+## Comments
+Comments are the statements that are used for documentation purpose or Comments are ignored by compiler so that don't execute.
+
+Thare are two types of comments in Rust:
+1. Single line comment. [//]
+2. Multi line comment. [/* */]
+Multi line comment is used for commenting multiple line of statement
+
+## Print Statement
+1. Println!() -> for a new line
+2. Print!() -> no new line
+
+## Example
+```
+fn main(){
+    /* This 
+    is
+    my
+    name */
+    println!("Hello");
+    println!("Anurag");
+    // This is single line comment
+    print!("Hello");
+    print!("Anurag");
+}
+
