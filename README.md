@@ -80,6 +80,7 @@ fn main(){
     print!("Hello");
     print!("Anurag");
 }
+```
 
 # Variables
 
