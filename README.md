@@ -290,7 +290,6 @@ fn main(){
 * **Mutable**- change the value stored
 
 # Constants in Rust
-
 ## Constants
 Constants represent values that cannot be changed. If you declare a constant then there is no way its value change. The keyword for using constants is **const**.
 The naming convention for Constants are similar to that of variables. All characters in a constant name are usually in uppercase.
