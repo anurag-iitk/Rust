@@ -570,7 +570,8 @@ for x in 1..10{
     println!("{}", x);
 }
 
-// x is range of 1 to 10, where 1 is implicit and 10 is explicit. If you want to include 10th value also use **for x in 1..=10**
+// x is range of 1 to 10, where 1 is implicit and 10 is explicit. If you want to include 10th value also use **for x in 1..=10**.
+If want reverse iteration use **for x in 1..10.rev()**
 ```
 
 ## loop
@@ -595,3 +596,38 @@ fn main(){
 
 ## Difference between while loop and for loop
 If the index length of the array is increased at runtime, then the while loop shows the bug this would not be happened in the class of for loop. Therefore, we can say that for loop increases the safety of the code and removes the changes of the bugs.
+
+# Break and Continue in Rust
+
+## Break Keyword
+When **break** is executed, it immediately terminates the loop body.
+```
+fn main(){
+
+    let mut _value = 0;
+
+    for x in 1..10 {
+        if x > 5 {
+            break;
+        }
+        _value = x;
+    }
+
+    println!("{}", _value);
+}
+```
+
+## Continue Keyword
+When **continue** is executed, mainly skip running iteration and move to next iteration.
+```
+fn main(){
+    for number in 1..=10 {
+        if number % 2 == 0 {
+            continue;
+        }
+        println!("Only odd numbers: {number}");
+    }
+}
+```
+
+
